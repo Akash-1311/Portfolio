@@ -1,0 +1,98 @@
+<!-- achievements.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr N.Akash - Achievements</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #f4f9fb; /* Lighter blue background color */
+      color: #333333;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    section {
+      background-color: #e0f4fc; /* Lighter blue section background color */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      padding: 30px;
+      width: 80%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333333;
+      font-weight: 700;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 15px;
+      font-size: 18px;
+      color: #006400;
+      position: relative;
+    }
+
+    .custom-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .custom-list li::before {
+      content: "\2022"; /* Unicode character for a bullet point */
+      color: #666666; /* Lighter black bullet color */
+      font-size: 1.5em; /* Customize the bullet size */
+      margin-right: 0.5em; /* Adjust spacing between the bullet and text */
+    }
+
+    li > ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+</head>
+<body>
+  <!-- Achievements Section -->
+  <section>
+    <h2>Achievements</h2>
+    <ul>
+      <li><strong>Certified with NPTEL online courses:</strong>
+        <ul class="custom-list">
+		<li>“Internet Of Things”</li>
+		<li>“Cloud Computing”</li>
+	  </ul>
+      </li>
+      <li><strong>Certified with Coursera online courses:</strong>
+        <ul class="custom-list">
+          <li>“IT Fundamentals for Cybersecurity”</li>
+          <li>“Amazon Web Services”</li>
+        </ul>
+      </li>
+      <li><strong>Certified with Coding Ninjas courses:</strong>
+        <ul class="custom-list">
+          <li>“Python Fundamentals”</li>
+          <li>“Java Fundamentals”</li>
+        </ul>
+      </li>
+      <li><strong>Certificate of Achievement on “TCS iON Career Edge” Young</strong></li>
+    </ul>
+  </section>
+</body>
+</html>
